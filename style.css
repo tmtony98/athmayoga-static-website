@@ -1,0 +1,342 @@
+*{
+    font-family:Arial, Helvetica, sans-serif;
+   
+    
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.navbar img{
+    margin-left:10px;
+}
+.navbar a{
+    color:#018692;  
+    font-size: 18px;
+}
+
+.navbar-nav li
+{
+   padding-left: 5px;
+   font-weight: 400;
+}
+
+#logo-heading{
+    color: #018692;
+    font-size: 25px;
+    padding-left: 25px;
+    font-weight: 400;
+    margin-left: 8px;
+}
+
+.text-hero{
+  color: #00cddf;
+}
+
+#hero-background{
+    width: 100%;
+    height: 85vh;
+     background-image:linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0,.8)),url(./images/family\ counselling.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     
+}
+
+.hero-section{
+    height: 95vh;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    padding: 0px 25px;
+    
+}
+.hero-section h1{
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+    font-weight: 800;
+    padding:35px;
+    margin-top:50px;
+}
+
+#hero-content p{
+    color: white;
+    margin-top: -15px;
+    font-size: 14.5px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#hero-content button{
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.quote-image img {
+   background-position: center
+    height: 350px;
+    width: 450px;
+    overflow: hidden;
+   
+ 
+}
+
+.card-title{
+    font-size: 22px;
+    font-weight: 800;
+    padding: 8px;
+ 
+}
+
+.card-body h4{
+    color:#018692;
+    font-weight: 600;
+}
+.card-body a{
+    background-color: #018692;
+    color: white;
+}
+
+.card-text{
+    font-size: 14px;
+    line-height:22px;
+}
+
+#service-info p{
+    color:#018692b9;
+    font-size: 14px;
+  margin-top: 40px;
+ padding-left: 12%;
+ padding-right: 12%;
+    
+}
+
+.footer{
+    background-color:#018692;
+    color: white;}
+
+
+
+#btn-issues{
+    box-shadow: 3px 3px 0px 0px #018692;  
+    margin-top: 5px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    font-size: 13px;
+    font-weight: 450;
+    padding: 2px px;  
+}
+
+.custom-height{
+    height: 250px;
+}
+#book-now{
+    background-color: #018692 ;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    padding: 8px 15px;
+}
+
+
+
+#info h2{
+    color:#018692;
+    font-size: 45px;
+}
+#services h2{
+    color:#018692;
+    font-size: 45px;
+    margin-bottom: 15px;
+    position: relative;
+
+}
+#services h2::after{
+    content: " ";
+    width: 150px;
+    height: 5px;
+    position: absolute;
+    display: block;
+    background-color: #018692;
+    left: 43%;
+    top: 120%;
+    
+}
+
+
+#types h2{
+    color:#018692;
+    font-size: 35px;
+}
+
+#types h2::after{
+    content: "";
+    width: 200px;
+    height: 5px;
+    display: block;
+    background-color:#018692;;
+    position: relative;
+    left: 40%;
+    top:40%
+    
+}
+
+#logo-heading{
+    color: ;
+    font-size: 20px
+}
+#questions h2{
+    color:#018692;
+    font-size: 30px
+}
+
+
+#button-lists h2{
+    color:#018692;
+}
+.accordion-item{
+    box-shadow: 2px 2px 0px 0px #018692;;
+    text-align: center;
+    margin: 20px;
+ }
+.footer-contents ul li{
+    list-style: none;
+
+}
+.footer-links ul li{
+    list-style: none;
+
+}
+
+#more-details {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    background-color:#018692;
+    width: 100%;
+    height: 50px;
+  margin-top: 50px;
+    align-items: end;
+}
+
+#more-details .p{
+    align-items: center;
+    text-align: center;
+    
+}
+    
+
+    
+    
+
+
+
+@media screen and (max-width:768px){
+   
+ #logo-heading{
+    font-size: 13.5px;
+ }
+
+    .navbar{
+       min-height: 55px;
+    }
+    .navbar-brand{
+        size: 2px;
+    }
+    .navbar-toggler{
+        size: 10px;
+    }
+    .navbar img{
+        width: 30px;
+        height: 35px;
+    }
+    .navbar-toggler-icon{
+        font-size: 11px;
+    }
+    #hero-background{
+        height: 70vh;
+        background-position: center;
+        background-image:linear-gradient(rgba(0,0,0,.3),rgb(0,0,0,.9)),url(./images/family\ counselling.jpg);  
+        }
+    #hero-content p{
+        font-size: 12.5px;
+        padding: 0px;
+        color: white;
+
+        padding-top: 5%;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    #services h2::after{
+        content: " ";
+        width: 120px;
+        height: 4px;
+        position: absolute;
+        display: block;
+        background-color: #018692;
+        left: 35%;
+        top: 120%;
+        
+    }
+    .hero-section{
+          margin-top: 15%;
+    }
+    #hero-content h1{
+        color: white;
+        font-size: 50px;
+        font-weight: 900;
+        text-align: end;
+        margin-top: 4%;
+        padding: 5% 0px;
+    }
+    #hero-content button{
+        padding: 12px;
+        margin-top: 35px;
+        border-radius: 10px;
+    }
+    #service-info p{
+        color:#018692b9;
+        font-size: 12px;
+
+      margin: 10% 1%;
+      line-height: 15px;
+        
+    }
+    #services h2{
+        color:#017882;
+        font-size: 35px;
+        font-weight: 700;
+        margin-bottom: 5px;
+    }
+    .card-title{
+        font-size: 18px;
+        padding: 2px;
+    }
+    #types h2{
+        color:#018692;
+        font-size: 25px;
+
+    }
+    #types h2::after{
+        content: "";
+        width: 100px;
+        height: 5px;
+        display: block;
+        background-color:#018692;
+        position: relative;
+        left: 35%;
+        top:30%
+        
+    }
+    .accordion-item{
+        box-shadow: 2px 2px 0px 0px #018692;;
+        text-align: center;
+        margin: 15px;
+        
+     }
+
+
+
+}
